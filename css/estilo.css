@@ -5,7 +5,7 @@
 
 body{
     font: "Lucida Grande", arial, sans-serif;
-    background: url(../images/img/fundo.png) repeat-x;
+    background: url(../images/img/fundo.png) repeat-x #f4f2ec;
 }
 
 .conteudo,
@@ -43,8 +43,13 @@ nav li{
     padding: 0 5px;
 }
 
+.conteudo h3{
+    color: green;
+    margin-bottom: 5px;
+}
+
 .conteudo section{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .conteudo article{
@@ -116,4 +121,36 @@ nav li{
 .conteudo aside .galeria .imgs img{
     border: #ffff solid 4px;
     border-radius: 2px;
+}
+
+.conteudo article .noticia .pricoluna,
+.conteudo article .noticia .segcoluna{
+    width:46%;
+}
+
+.conteudo article .noticia ul{
+    margin-left: 25px;
+}
+
+.conteudo article span,
+.conteudo article ul{
+    color: brown;
+}
+
+.conteudo article .noticia{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../images/img/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: brown;
 }
